@@ -8,6 +8,3 @@ hamMenu.addEventListener("click", () => {
 });
 
 // SLIDING DIV
-$("#slide-img").click(function() {
-    $(this).animate({"right": "50px"}, "slow");
-});

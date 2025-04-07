@@ -10,6 +10,10 @@ body {
     padding:2.5%;
 }
 
+.content {
+    padding-left: 15%;
+}
+
 .title {
     font-size: 1.7em;
     font-style: bold;
@@ -101,3 +105,12 @@ nav {
 }
 
 /* Sliding Div Thing */
+.slide-content {
+    position: absolute;
+    justify-content: center;
+    margin: 0%;
+}
+
+.slide-img {
+    position: relative;
+}
