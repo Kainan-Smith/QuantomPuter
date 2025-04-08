@@ -105,12 +105,19 @@ nav {
 }
 
 /* Sliding Div Thing */
-.slide-content {
+.slide-content-left,
+.slide-content-right {
     position: absolute;
     justify-content: center;
-    margin: 0%;
+    margin-top: 20%;
+    opacity: 0%;
 }
 
-.slide-img {
+.slight-content-right {
+    right: -100%;
+}
+
+.slide-content-left,
+.slide-content-right {
     position: relative;
 }
