@@ -7,17 +7,3 @@ hamMenu.addEventListener("click", () => {
     offScreenMenu.classList.toggle('active');
 });
 
-// SLIDING DIV
-$(".slide-content-left").scroll(function() {
-    $(this).animate({
-        opacity: "100%",
-        left: "65%"
-    });
-})
-
-$(".slide-content-right").scroll(function() {
-    $(this).animate({
-        opacity: "100%",
-        right: "165%"
-    });
-})

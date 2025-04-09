@@ -8,6 +8,7 @@ body {
 .main-img {
     height: 35em;
     padding:2.5%;
+    z-index: 0;
 }
 
 .content {
@@ -33,7 +34,7 @@ body {
 }
 
 nav {
-    padding: 0.7em;
+    padding: 1%;
     display: flex;
     background-color: rgb(0, 0, 0);
     z-index: 3;
@@ -47,7 +48,7 @@ nav {
     width: 80%;
     max-width: 450px;
     position: fixed;
-    top: 11%;
+    top: 9.8%;
     right: -450px;
     display: flex;
     flex-direction: column;
@@ -56,6 +57,7 @@ nav {
     text-align: center;
     font-size: 3em;
     transition: .3s ease;
+    z-index: 5;
 }
 
 .off-screen-menu.active {
@@ -68,6 +70,7 @@ nav {
     margin-left: auto;
     margin-right: 6px;
     position: relative; /* so spans can be positioned absolutely */
+    z-index: 5;
 }
 
 .ham-menu span {
@@ -109,15 +112,14 @@ nav {
 .slide-content-right {
     position: absolute;
     justify-content: center;
-    margin-top: 20%;
-    opacity: 0%;
+    opacity: 100%;
 }
 
-.slight-content-right {
-    right: -100%;
+.slide-content-right {
+    opacity: 100%;
 }
 
 .slide-content-left,
 .slide-content-right {
-    position: relative;
+    position: absolute;
 }
